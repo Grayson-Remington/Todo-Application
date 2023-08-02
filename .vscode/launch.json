@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Spring Boot-AuthenticatedBackendApplication<authenticated-backend>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.grayremington.authenticatedbackend.AuthenticatedBackendApplication",
+			"projectName": "authenticated-backend",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		}
+	]
+}
