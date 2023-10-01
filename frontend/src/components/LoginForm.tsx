@@ -101,6 +101,11 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
 						Register
 					</button>
 				</form>
+				<div className='text-xl font-bold tracking-tight text-[#f0f1f7]  mt-4'>
+					<h1 className='underline text-center'>Guest Login</h1>
+					<h2>Username: guest</h2>
+					<h2>Password: Password123!</h2>
+				</div>
 			</div>
 		</div>
 	);
